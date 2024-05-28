@@ -1,0 +1,61 @@
+.foot {
+  font-family: Plusjakartadisplay, sans-serif;
+  margin-top: -58px;
+  color: white;
+  font-size: smaller;
+}
+.main {
+  background-color: #003153 !important;
+}
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.foot1 {
+  width: 100%;
+  height: 15vw;
+  font-size: 15px !important;
+}
+.foot1 ul {
+  list-style-type: none;
+}
+
+.foot1 ul li a {
+  text-decoration: none;
+  color: #8996a0 !important;
+  font-family: GT America Standard Regular;
+}
+.foot1 h3 {
+  color: white;
+  font-family: GT America Standard Bold;
+  font-size: 18px !important;
+}
+.foot2 {
+  width: 100%;
+  height: 10vw;
+  color: #8996a0 !important;
+  font-family: GT America Standard Regular;
+}
+.line {
+  height: 1px;
+  background: linear-gradient(to top,#003153,white);
+  margin-top: -49px;
+  margin-left: 20vw;
+}
+.social:hover {
+  transform: scale(1.3);
+  box-shadow: 0 0 5px #ffffff;
+  border-radius: 15px;
+}
+.text_malayalam {
+  font-size: 7px !important;
+  color: #468fea;
+}
+.text {
+  word-spacing: 1px;
+  font-size: 15px !important;
+}
+.text_center {
+  font-size: x-small !important;
+}

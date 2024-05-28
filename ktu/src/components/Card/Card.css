@@ -1,0 +1,50 @@
+.card_style {
+    width: 330px;
+    height: 400px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+    font-weight: 500;
+  }
+  .card_style:hover {
+    transform: scale(1);
+    color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* Slight black shadow */
+  }
+  
+  .card1 {
+    transition: background-color 0.3s;
+  }
+  .card2 {
+    transition: background-color 0.3s;
+  }
+  .card3 {
+    transition: background-color 0.3s;
+  }
+  .card1:hover {
+    background: linear-gradient(to bottom, rgb(25, 125, 220), rgb(168, 200, 238));
+    border: none;
+  }
+  .card2:hover {
+    background: linear-gradient(to bottom, #11a167, rgb(156, 242, 189));
+    border: none;
+  }
+  .card3:hover {
+    background: linear-gradient(to bottom, #7b4bca, #ceb2fc);
+    border: none;
+  }
+  
+  .card_text {
+    font-family: GT America Standard Regular;
+    font-size: 14px;
+    text-align: start;
+    margin: 5px;
+  }
+  .icon1 {
+    color: #89bdf1;
+  }
+  .icon2 {
+    color: #16da58;
+  }
+  .icon3 {
+    color: #b569e8;
+  }

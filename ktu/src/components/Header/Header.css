@@ -1,0 +1,72 @@
+.nav_style {
+}
+.logo {
+  font-size: x-small !important;
+  color: #ffffff !important;
+  font-family: Plusjakartadisplay, sans-serif;
+}
+
+.text_head2 {
+  font-size: 7px !important;
+}
+
+.logo1 {
+  font-size: 11px !important;
+  color: #ffffff !important;
+  font-family: Plusjakartadisplay, sans-serif;
+}
+
+.center {
+  font-size: 26px !important;
+  color: #26619c !important;
+  transition: color 2s;
+  font-family: Canela Web;
+  line-height: 1;
+  font-style: normal;
+  font-weight: 400;
+}
+.nav_brand {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -39px;
+}
+.text-dark {
+  color: #26619c !important;
+  font-size: smaller;
+}
+
+.text-dark:hover {
+  text-decoration: underline solid rgb(243, 76, 76) 20%;
+}
+
+.white_shade {
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    #fefefa,
+    rgb(255, 255, 255)
+  );
+  height: 18px;
+  margin-top: -18px;
+}
+.arrow {
+  color: #ffffff;
+  font-size: 18px;
+}
+.button {
+  background-color: #509eec !important;
+  border: none;
+  width: 100px;
+  color: #ffffff !important;
+  border-radius: 20px !important;
+  font-size: x-small !important;
+  font-family: Plusjakartadisplay, sans-serif;
+}
+.button:hover {
+  background-color: #3f7cb8 !important;
+  box-shadow: 0 0 10px #406cd3;
+}
+.text_head3 {
+  font-size: 4.5px !important;
+  color: #e10303;
+}

@@ -1,0 +1,97 @@
+.main1 {
+  min-height: 100vh;
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  padding: 20px;
+  position: relative; /* Enable absolute positioning for children */
+}
+
+.logo-container {
+  position: absolute; /* Keep logo fixed in top left */
+  top: 20px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
+  text-align: left; /* Align text to the left */
+}
+
+.logo-wrapper {
+  display: flex; /* Flexbox to align items */
+  align-items: flex-start; /* Align image and text at the top */
+}
+
+.logo-image {
+  width: 50px; /* Adjust width of the image */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Space between image and text */
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column; /* Stack text vertically */
+}
+
+.logo-title {
+  font-size: 1.2rem; /* Clean and bold title */
+  font-weight: bold; /* Bold for emphasis */
+  margin: 0; /* Remove default margin */
+  color: #333; /* Dark color for professionalism */
+}
+
+.logo-subtitle {
+  font-size: 0.8rem; /* Subtitle font size */
+  color: #555; /* Muted color for clarity */
+  margin: 2px 0; /* Spacing above and below */
+}
+
+.logo-subtitle-malayalam {
+  font-size: 0.5rem; /* Size for the Malayalam subtitle */
+  color: #d03737; /* Lighter color */
+  margin: 2px 0; /* Spacing above and below */
+}
+
+.card_sign {
+  min-width: 800px; /* Limit card width */
+  width: 100%; /* Full width on small screens */
+  padding: 1.5rem; /* Card padding */
+}
+
+.input_sign {
+  font-size: 1rem; /* Input font size */
+}
+
+.btn.login {
+  width: 100%; /* Full width button */
+  margin-top: 20px; /* Spacing above button */
+}
+
+@media (max-width: 700px) {
+  .card_sign {
+    min-width: 400px; /* Limit card width */
+    width: 100%; /* Full width on small screens */
+    padding: 1.5rem; /* Card padding */
+  }
+}
+
+/* Media queries for better control on smaller screens */
+@media (max-width: 500px) {
+  .logo-title {
+    font-size: 1rem; /* Adjust for smaller screens */
+  }
+  .card_sign {
+    min-width: 300px; /* Limit card width */
+    width: 100%; /* Full width on small screens */
+    padding: 1.5rem; /* Card padding */
+  }
+  
+  .logo-subtitle {
+    font-size: 0.6rem; /* Adjust for smaller screens */
+  }
+
+  .logo-subtitle-malayalam {
+    font-size: 0.4rem; /* Adjust for smaller screens */
+  }
+
+  .card_sign {
+    padding: 1rem; /* Reduced padding for small screens */
+  }
+}
